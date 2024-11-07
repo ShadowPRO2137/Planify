@@ -1,0 +1,31 @@
+My app folder structure:
+
+app
+  context
+   UserContext.tsx
+
+  tabs
+    _layout.tsx
+    Account.tsx
+    Calendar.tsx
+    Notes.tsx
+
+  _layout.tsx
+  +html.tsx
+  +not-found.tsx
+
+Calendar plan:
+
+November 2024                            /\ \/
+
+  Mo    Tu    We    Th    Fr    Sa    Su  
+l(28)ll(29)ll(30)ll(31)l (1 )  (2 )  (3 )
+a(4 )a (5 )  (6 )  (7 )  (8 )  (9 )  (10)
+ (11)  (12)  (13)  (14)  (15)  (16)  (17)
+ (18)  (19)  (20)  (21)  (22)  (23)  (24)
+ (25)  (26)  (27)  (28)  (29)  (30) l(1 )l
+
+
+() - circle
+ll - light
+aa - blue (current day)
